@@ -25,9 +25,6 @@ TARGET_OTA_ASSERT_DEVICE := g6,lucye,h873
 TARGET_KERNEL_CONFIG += vendor/lge/h873.config
 
 # Partitions
-BOARD_CACHEIMAGE_PARTITION_SIZE := 536870912
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5863636992
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 24595398656
 
 # inherit from the proprietary version
 include vendor/lge/h873/BoardConfigVendor.mk
